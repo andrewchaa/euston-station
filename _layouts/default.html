@@ -2,48 +2,7 @@
 <!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
 <!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
 <!--[if !IE]><!--> <html lang="en"> <!--<![endif]-->
-<head>
-	<title>Unify | Creative One Page Theme</title>
-
-	<!-- Meta -->
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-	<meta name="author" content="">
-
-	<!-- Favicon -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Web Fonts -->
-	<link rel='stylesheet' type='text/css' href='//fonts.googleapis.com/css?family=Open+Sans:400,300,600&amp;subset=cyrillic,latin'>
-
-	<!-- CSS Global Compulsory -->
-	<link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="assets/css/one.style.css">
-
-	<!-- CSS Footer -->
-	<link rel="stylesheet" href="assets/css/footers/footer-v7.css">
-
-	<!-- CSS Implementing Plugins -->
-	<link rel="stylesheet" href="assets/plugins/animate.css">
-	<link rel="stylesheet" href="assets/plugins/line-icons/line-icons.css">
-	<link rel="stylesheet" href="assets/plugins/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="assets/plugins/pace/pace-flash.css">
-	<link rel="stylesheet" href="assets/plugins/owl-carousel/owl.carousel.css">
-	<link rel="stylesheet" href="assets/plugins/cube-portfolio/cubeportfolio/css/cubeportfolio.min.css">
-	<link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings.css" type="text/css" media="screen">
-	<!--[if lt IE 9]><link rel="stylesheet" href="assets/plugins/revolution-slider/rs-plugin/css/settings-ie8.css" type="text/css" media="screen"><![endif]-->
-
-	<!-- Style Switcher -->
-	<link rel="stylesheet" href="assets/css/plugins/style-switcher.css">
-
-	<!-- CSS Theme -->
-	<link rel="stylesheet" href="assets/css/theme-colors/default.css" id="style_color">
-	<link rel="stylesheet" href="assets/css/theme-skins/one.dark.css">
-
-	<!-- CSS Customization -->
-	<link rel="stylesheet" href="assets/css/custom.css">
-</head>
+{% include head.html %}
 
 <!--
 The #page-top ID is part of the scrolling feature.
@@ -76,7 +35,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 							<a href="#body">Home</a>
 						</li>
 						<li class="page-scroll">
-							<a href="#about">About Us</a>
+							<a href="#about">About the Station</a>
 						</li>
 						<li class="page-scroll">
 							<a href="#services">Services</a>
@@ -123,7 +82,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 					<!-- SLIDE 1 -->
 					<li data-transition="curtain-1" data-slotamount="5" data-masterspeed="700" data-title="Slide 1">
 						<!-- MAIN IMAGE -->
-						<img src="assets/img/sliders/revolution/bg1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
+						<img src="custom-assets/images/euston-station-1.jpg" alt="slidebg1" data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
 
 						<!-- LAYERS -->
 						<div class="tp-caption rs-caption-1 sft start"
@@ -134,7 +93,7 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 						data-start="2000"
 						data-easing="Back.easeInOut"
 						data-endspeed="300">
-						WE ARE UNIFY CREATIVE TECHNOLOGY COMPANY
+						The Sixth Busiest Railway Station in the UK
 					</div>
 
 					<!-- LAYER -->
@@ -149,76 +108,28 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 					data-endeasing="Power1.easeIn"
 					data-captionhidden="off"
 					style="z-index: 6">
-					Creative freedom matters user experience.<br>
-					We minimize the gap between technology and its audience.
+					Euston was the first intercity railway station in London,<br />
+          opened on 20 July 1837 as the terminus of<br />
+          the London and Birmingham Railway (L&amp;BR).
 				</div>
 
 				<!-- LAYER -->
 				<div class="tp-caption rs-caption-3 sft"
-				data-x="center"
-				data-hoffset="0"
-				data-y="360"
-				data-speed="800"
-				data-start="3500"
-				data-easing="Power4.easeOut"
-				data-endspeed="300"
-				data-endeasing="Power1.easeIn"
-				data-captionhidden="off"
-				style="z-index: 6">
-				<span class="page-scroll"><a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
-				<span class="page-scroll"><a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a></span>
+  				data-x="center"
+  				data-hoffset="0"
+  				data-y="360"
+  				data-speed="800"
+  				data-start="3500"
+  				data-easing="Power4.easeOut"
+  				data-endspeed="300"
+  				data-endeasing="Power1.easeIn"
+  				data-captionhidden="off"
+  				style="z-index: 6">
+  				<span class="page-scroll"><a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">About Euston Station</a></span>
+  				<span class="page-scroll"><a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-light">Train Information</a></span>
 			</div>
 		</li>
 
-		<!-- SLIDE 2 -->
-		<li data-transition="slideup" data-slotamount="5" data-masterspeed="1000" data-title="Slide 2">
-			<!-- MAIN IMAGE -->
-			<img src="assets/img/sliders/revolution/bg2.jpg" alt="slidebg1"  data-bgfit="cover" data-bgposition="center center" data-bgrepeat="no-repeat">
-
-			<!-- LAYERS -->
-			<div class="tp-caption rs-caption-1 sft start"
-			data-x="center"
-			data-hoffset="0"
-			data-y="100"
-			data-speed="800"
-			data-start="1500"
-			data-easing="Back.easeInOut"
-			data-endspeed="300">
-			DEDICATED ADVANCED TEAM
-		</div>
-
-		<!-- LAYER -->
-		<div class="tp-caption rs-caption-2 sft"
-		data-x="center"
-		data-hoffset="0"
-		data-y="200"
-		data-speed="1000"
-		data-start="2500"
-		data-easing="Power4.easeOut"
-		data-endspeed="300"
-		data-endeasing="Power1.easeIn"
-		data-captionhidden="off"
-		style="z-index: 6">
-		We are creative technology company providing<br>
-		key digital services on web and mobile.
-	</div>
-
-	<!-- LAYER -->
-	<div class="tp-caption rs-caption-3 sft"
-	data-x="center"
-	data-hoffset="0"
-	data-y="360"
-	data-speed="800"
-	data-start="3500"
-	data-easing="Power4.easeOut"
-	data-endspeed="300"
-	data-endeasing="Power1.easeIn"
-	data-captionhidden="off"
-	style="z-index: 6">
-	<span class="page-scroll"><a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
-	<span class="page-scroll"><a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a></span>
-</div>
-</li>
 
 <!-- SLIDE 3 -->
 <li data-transition="slideup" data-slotamount="5" data-masterspeed="700"  data-title="Slide 3">
@@ -227,47 +138,47 @@ The data-spy and data-target are part of the built-in Bootstrap scrollspy functi
 
 	<!-- LAYERS -->
 	<div class="tp-caption rs-caption-1 sft start"
-	data-x="center"
-	data-hoffset="0"
-	data-y="110"
-	data-speed="800"
-	data-start="1500"
-	data-easing="Back.easeInOut"
-	data-endspeed="300">
-	WE DO THINGS DIFFERENTLY
-</div>
+  	data-x="center"
+  	data-hoffset="0"
+  	data-y="110"
+  	data-speed="800"
+  	data-start="1500"
+  	data-easing="Back.easeInOut"
+  	data-endspeed="300">
+  	WE DO THINGS DIFFERENTLY
+  </div>
+
+  <!-- LAYER -->
+  <div class="tp-caption rs-caption-2 sfb"
+    data-x="center"
+    data-hoffset="0"
+    data-y="210"
+    data-speed="800"
+    data-start="2500"
+    data-easing="Power4.easeOut"
+    data-endspeed="300"
+    data-endeasing="Power1.easeIn"
+    data-captionhidden="off"
+    style="z-index: 6">
+    Creative freedom matters user experience.<br>
+    We minimize the gap between technology and its audience.
+  </div>
 
 <!-- LAYER -->
-<div class="tp-caption rs-caption-2 sfb"
-data-x="center"
-data-hoffset="0"
-data-y="210"
-data-speed="800"
-data-start="2500"
-data-easing="Power4.easeOut"
-data-endspeed="300"
-data-endeasing="Power1.easeIn"
-data-captionhidden="off"
-style="z-index: 6">
-Creative freedom matters user experience.<br>
-We minimize the gap between technology and its audience.
-</div>
-
-<!-- LAYER -->
-<div class="tp-caption rs-caption-3 sfb"
-data-x="center"
-data-hoffset="0"
-data-y="370"
-data-speed="800"
-data-start="3500"
-data-easing="Power4.easeOut"
-data-endspeed="300"
-data-endeasing="Power1.easeIn"
-data-captionhidden="off"
-style="z-index: 6">
-<span class="page-scroll"><a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
-<span class="page-scroll"><a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a></span>
-</div>
+  <div class="tp-caption rs-caption-3 sfb"
+    data-x="center"
+    data-hoffset="0"
+    data-y="370"
+    data-speed="800"
+    data-start="3500"
+    data-easing="Power4.easeOut"
+    data-endspeed="300"
+    data-endeasing="Power1.easeIn"
+    data-captionhidden="off"
+    style="z-index: 6">
+    <span class="page-scroll"><a href="#about" class="btn-u btn-brd btn-brd-hover btn-u-light">Learn More</a></span>
+    <span class="page-scroll"><a href="#portfolio" class="btn-u btn-brd btn-brd-hover btn-u-light">Our Work</a></span>
+  </div>
 </li>
 </ul>
 <div class="tp-bannertimer tp-bottom"></div>
@@ -282,25 +193,18 @@ style="z-index: 6">
 	<div class="block-v1">
 		<div class="container">
 			<div class="row content-boxes-v3">
-				<div class="col-md-4 md-margin-bottom-30">
+				<div class="col-md-8 md-margin-bottom-30">
 					<i class="icon-custom rounded-x icon-bg-dark fa fa-lightbulb-o"></i>
 					<div class="content-boxes-in-v3">
-						<h2 class="heading-sm">Creative Desgin</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
-					</div>
-				</div>
-				<div class="col-md-4 md-margin-bottom-30">
-					<i class="icon-custom rounded-x icon-bg-dark fa fa-flask"></i>
-					<div class="content-boxes-in-v3">
-						<h2 class="heading-sm">Web Development</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+						<h2 class="heading-sm">About the station</h2>
+						<p><strong>Euston railway station</strong> or <strong>London Euston /ˈlʌndən.ˈjuːstən/</strong> is a central London railway terminus and one of 19 stations managed by Network Rail.[4] It is the sixth busiest railway station in the UK.</p>
+            <p>Euston is the southern terminus of the West Coast Main Line, the busiest intercity passenger route in Britain and the main gateway from London to the West Midlands, the North West, North Wales and parts of Scotland. Virgin Trains provides high-speed intercity services to these regions. Its most important long-distance destinations are Birmingham, Liverpool, Manchester and Glasgow. London Midland also provide local commuter and regional services via the WCML from London to Hertfordshire, Buckinghamshire, Bedfordshire, Northamptonshire and Warwickshire as well as long-distance services to the West Midlands county, Staffordshire and Cheshire. Euston is also the terminus for suburban services on the Watford DC Line operated by London Overground.</p>
+            <p>It is connected to Euston tube station and near to Euston Square tube station on the London Underground. It is a short walk from King's Cross Station, the southern terminus of the East Coast Main Line, and St Pancras International Station for the Midland Main Line and for Eurostar to France, Belgium and the Netherlands. These stations are all in Travelcard Zone 1.</p>
 					</div>
 				</div>
 				<div class="col-md-4">
-					<i class="icon-custom rounded-x icon-bg-dark fa fa-bolt"></i>
 					<div class="content-boxes-in-v3">
-						<h2 class="heading-sm">Online Marketing</h2>
-						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's</p>
+            <img src="custom-assets/images/euston-station-small.jpg" />
 					</div>
 				</div>
 			</div>
@@ -310,7 +214,7 @@ style="z-index: 6">
 	<div class="about-image bg-grey">
 		<div class="container">
 			<div class="title-v1">
-				<h1>We are Unify Agency</h1>
+				<h1>The Sixth Busiest Railway Station in the UK</h1>
 				<p>Unify <strong>creative</strong> technology company providing key digital services. <br>
 					Focused on helping our clients to build a <strong>successful</strong> business on web and mobile.</p>
 				</div>
